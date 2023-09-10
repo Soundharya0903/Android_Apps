@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">optionmenu</string>
+    <string-array name="todo">
+        <item>Wake u early</item>
+        <item>Exercise</item>
+        <item>Brushing</item>
+    </string-array>
+</resources>
+
