@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedPlanTextView"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:text="Select a Plan" />
+
+
+    <Button
+        android:id="@+id/planButton"
+        android:layout_width="212dp"
+        android:layout_height="88dp"
+        android:text="Select Plan" />
+
+    <EditText
+        android:id="@+id/principalEditText"
+        android:layout_width="288dp"
+        android:layout_height="55dp"
+        android:hint="Enter Principal Amount" />
+
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:hint="Enter Time Period (years)" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="217dp"
+        android:layout_height="58dp"
+        android:text="Calculate Interest" />
+
+</LinearLayout>
+
