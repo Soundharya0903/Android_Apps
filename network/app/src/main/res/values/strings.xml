@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NetworkStatusApp</string>
+    <string name="network_status">Network Status: </string>
+</resources>
